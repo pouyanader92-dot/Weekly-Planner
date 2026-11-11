@@ -1,0 +1,13 @@
+{
+  "name": "my-weekly-planner",
+  "version": "1.0.0",
+  "description": "برنامه هفتگی من — با ذخیره‌ی ابری روی JSONBin",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" }
+}
